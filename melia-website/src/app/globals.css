@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+body{
+	background-repeat: no-repeat;
+	background: rgb(100,235,249);
+	background: linear-gradient(163deg, rgba(100,235,249,0.35915616246498594) 0%, rgba(162,0,249,0.3395483193277311) 100%);
+}
